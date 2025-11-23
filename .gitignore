@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment variables file
+.env
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore models directory and contents
+models/
+models/*
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints
+
+# Ignore log files
+*.log
+
+# Ignore IDE folders
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
