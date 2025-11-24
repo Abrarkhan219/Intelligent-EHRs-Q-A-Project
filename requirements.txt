@@ -19,4 +19,4 @@ streamlit
 requests
 transformers
 torch
-serpapi
+serpapi==2.0.5
