@@ -13,7 +13,7 @@ tqdm
 streamlit
 flask
 textdistance
-serpapi==0.1.5
+serpapi==2.0.5
 
 gradio
 streamlit
