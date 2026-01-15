@@ -1,8 +1,46 @@
+# --------------------
+# Python cache
+# --------------------
 __pycache__/
 *.pyc
-.env
+*.pyo
+
+# --------------------
+# Virtual environments
+# --------------------
 venv/
+venv310/
+
+# --------------------
+# Environment variables (SECURITY)
+# --------------------
+.env
+
+# --------------------
+# Logs
+# --------------------
+logs/
+app/logs/
+*.log
+
+# --------------------
+# Models & large files
+# --------------------
 models/
 models/*
-*.ipynb_checkpoints
-app/logs/answers.log
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Streamlit
+# --------------------
+.streamlit/
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
