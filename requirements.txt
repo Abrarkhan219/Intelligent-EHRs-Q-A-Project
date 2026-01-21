@@ -25,3 +25,4 @@ flask
 requests
 gradio
 langchain
+python-dotenv  # Add this line
